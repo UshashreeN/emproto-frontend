@@ -1,0 +1,231 @@
+.dashboard {
+  width: 1467px;
+  margin-top: -1083px;
+  position: relative;
+  height: 1098px;
+  top: 1150px;
+  left: 285px;
+}
+.top-box {
+  width: 1467px;
+  height: 99px;
+  background-color: #fcffff;
+  margin-top: -32px;
+  position: absolute;
+  left: 285px;
+}
+.search {
+  width: 342px;
+  height: 36px;
+  flex-grow: 0;
+  padding: 14px 110px 14px 27px;
+  margin-left: 770px;
+  margin-top: 14px;
+  border-radius: 25px;
+  background-color: #fafafa;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #949494;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  flex-grow: 0;
+  top: -53px;
+  border-radius: 50px;
+  left: 1288px;
+  position: relative;
+}
+.UserName {
+  width: 112px;
+  height: 33px;
+  flex-grow: 0;
+  margin: -57px 61px 2px;
+  font-family: OpenSans;
+  font-size: 24px;
+}
+.SuperAdmin {
+  width: 97px;
+  height: 22px;
+  flex-grow: 0;
+  margin: -5px 21px 0px 59px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  color: #898787;
+}
+
+.financial-year{
+  font-family: OpenSans;
+    font-size: 18px;
+    color: #fe8627;
+    width: 204px;
+    height: 26px;
+    flex-grow: 0;
+    margin: -64px 0px 12px 986px;
+    padding: 12px 14px 12px 13px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+    position: relative;
+}
+
+
+.all-branches{
+  width: 177px;
+  height: 26px;
+  flex-grow: 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  margin: -64px 1250px;
+  font-family: OpenSans;
+  font-size: 18px;
+  color: #fe8627
+}
+
+.Dashboard{
+  width: 175px;
+    height: 44px;
+    flex-grow: 0;
+    left: 48px;
+    font-family: OpenSans;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #2c2a2a;
+    position: relative;
+}
+
+.allBranches{
+  width: 224px;
+  height: 25px;
+  flex-grow: 0;
+  margin: 8px 48px 0;
+  font-family: OpenSans;
+  font-size: 18px;
+  color: #6d6a6a;
+  position: relative;
+}
+
+/* *******************************************************************************************************************************/
+
+.cards {
+  width: 320px;
+  height: 175px;
+  flex-grow: 0;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 164px 0px 0px 22px;
+}
+.card1 {
+  background-color: #abcdff;
+}
+.card2 {
+  /* margin: -223px 30px 2px 453px; */
+
+  background: #b7aaff;
+}
+.card3 {
+  /* margin: -225px 33px 24px 850px; */
+  background: #ffe2ab;
+}
+.card4 {
+  /* margin: -247px 30px 2px  1246px; */
+  background: #d7fba8;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: bold;
+  margin: -4px 0px 2px 5px;
+  position: relative;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 19px 8px -21px 1px;
+  position: relative;
+}
+
+.last-update {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 65px 162px 24px 22px;
+}
+
+.style {
+  margin: -57px 5px -35px 242px;
+  position: relative;
+}
+
+
+/************************************************************************************************************************************/
+
+.left-col {
+  width: 261px;
+  height: 1117px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 32px 24px 50px 0;
+  background-color: #faf7f2;
+  position: relative;
+  left: 0px;
+}
+.logo {
+  margin-left: 33px;
+  width: 249px;
+  height: 56px;
+
+}
+
+.overview {
+  width: 225px;
+    height: 42px;
+    flex-grow: 0;
+    margin: 32px 0px 53px;
+    padding: 12px 6px 8px 31px;
+    border-radius: 9px;
+    box-shadow: 0 2px 10px 0 rgb(246 150 73 / 15%);
+    background-color: #fcffff;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #fe8627;
+    position: relative;
+}
+
+.logout {
+  width: 169px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 496px 22px 0 41px;
+    padding: 11px 14px;
+    border-radius: 13px;
+    background-color: #fff;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #fe8627;
+}
+
+.details {
+  width: 169px;
+  height: 33px;
+  flex-grow: 0;
+  margin: -6px 16px 44px;
+  padding: 20px 40px;
+  font-family: OpenSans;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #1c1c1c;
+}
